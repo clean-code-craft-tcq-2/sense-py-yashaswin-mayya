@@ -47,7 +47,6 @@ class StatsAlerter:
     # This function is to check if input list contains a number greater than a threshold
     # Email Alert is True and LED is turned ON if input is greater than threshold
   def checkAndAlert(self, numbers):
-    
     # Check if any data of input list is higher than threshold value 
     if (max(numbers) > self.maxThreshold):
       # Send Email and turn ON LED
